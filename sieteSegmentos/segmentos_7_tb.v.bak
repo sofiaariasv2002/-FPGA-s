@@ -1,0 +1,11 @@
+module segmentos_7_tb(
+//inicializamos las variables del test bench
+reg [3:0] seg7_tb_in;
+wire [3:0] seg7_tb_out;
+);
+
+//instanciamos el modulo al testBench
+segmentos_7 DUT(
+.data_in(seg7_tb_in)
+.segments_out(seg7_tb_out)
+);

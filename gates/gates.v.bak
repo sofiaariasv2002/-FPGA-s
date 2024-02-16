@@ -1,0 +1,13 @@
+module tarea1(
+	input  a_in,
+	input b_in, 
+	output [7:0]z);
+	  assign z[0]=~a_in;
+	  assign z[1]=~b_in;
+	  assign z[2]=a_in*b_in;
+	  assign z[3]=a_in+b_in;
+	  assign z[4]=~(a_in*b_in);
+	  assign z[5]=~(a_in+b_in);
+	  assign z[6]=(a_in^b_in );
+	  assign z[7]=~(a_in^b_in );
+endmodule

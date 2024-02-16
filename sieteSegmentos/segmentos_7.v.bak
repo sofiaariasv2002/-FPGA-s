@@ -1,0 +1,14 @@
+/*
+Display de 7 segmentos
+
+Autor: Sofia Arias
+
+inputs: 4 entradas
+
+Salidas: 7 salidas
+
+*/
+
+module segmentos_7(
+
+);

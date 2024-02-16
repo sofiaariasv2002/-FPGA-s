@@ -1,0 +1,28 @@
+|segmentos_7_wr
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+HEX0[0] << segmentos_7:WRAPPER.segments_out
+HEX0[1] << segmentos_7:WRAPPER.segments_out
+HEX0[2] << segmentos_7:WRAPPER.segments_out
+HEX0[3] << segmentos_7:WRAPPER.segments_out
+HEX0[4] << segmentos_7:WRAPPER.segments_out
+HEX0[5] << segmentos_7:WRAPPER.segments_out
+HEX0[6] << segmentos_7:WRAPPER.segments_out
+
+
+|segmentos_7_wr|segmentos_7:WRAPPER
+data_in[0] => Decoder0.IN3
+data_in[1] => Decoder0.IN2
+data_in[2] => Decoder0.IN1
+data_in[3] => Decoder0.IN0
+segments_out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+segments_out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+segments_out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+segments_out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+segments_out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+segments_out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+segments_out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
